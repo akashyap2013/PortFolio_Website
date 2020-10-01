@@ -20,7 +20,13 @@
     padding: 1rem 20rem ;
 }
 
-.header_area .main-menu .nav-item .nav-link{
+.nav-item .nav-link {
+    font: normal 300 15px/2px var(--roboto);  
+    padding: 1.7rem; 
+    margin-right: 20px;
+}
+
+.header_area .main-menu {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
@@ -331,11 +337,11 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: thin 300 23px/ 30px var(--roboto);
 }
 
 footer.footer-area .social a > i{
-    font-size:22px;
+    font-size:18px;
     padding: 2rem;
     color: var(--border-color);
 }
