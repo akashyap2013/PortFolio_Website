@@ -20,8 +20,16 @@
     padding: 1rem 20rem ;
 }
 
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+.nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font: normal 300 15px/2px;  
+    padding: 1.7rem; 
+    margin-right: 20px;
+}
+
+.header_area .main-menu {
+    font-family: 'Montserrat', sans-serif;
+    font: normal 500 15px/2px;
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -66,7 +74,7 @@
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h4{
@@ -90,7 +98,8 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font-family: 'Montserrat', sans-serif;
+    font: normal bold 49px/ 60px;
     letter-spacing: 21px;
 }
 
@@ -192,6 +201,7 @@
 
 .site-main .services-area .services-title h1{
     font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .site-main > .services-area .services{
@@ -217,10 +227,15 @@
     padding: 4rem 0;
 }
 
+.fontmont {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--roboto);
+    font: normal 500 16px/130px;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -229,7 +244,8 @@
 }
 
 .site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 25px/12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -331,11 +347,11 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: thin 300 23px/ 30px var(--roboto);
 }
 
 footer.footer-area .social a > i{
-    font-size:22px;
+    font-size:18px;
     padding: 2rem;
     color: var(--border-color);
 }
