@@ -306,13 +306,13 @@
     width: 400px;
     padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
+    background: white;
+    color: black;
     font: normal 500 17px/20px var(--roboto);
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .site-main .subscribe-us-area .subscribe form .btn-submit button{
