@@ -235,7 +235,9 @@
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
-
+.site-main .project-area .button-group .active{
+    color: var(--primary-color);
+}
 
 /* End Project Area */ 
 
