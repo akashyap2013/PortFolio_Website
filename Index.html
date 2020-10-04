@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daily Tuition</title>
 
+    <!-- Favicon Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
     <!--  Bootstrap css file  -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -37,7 +40,7 @@
 
     <!--  ======================= Start Header Area ============================== -->
 
-    <header class="header_area">
+    <header class="header_area" id="home">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
@@ -49,16 +52,16 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
+                            <a class="nav-link" href="#services">services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">portfolio</a>
+                            <a class="nav-link" href="#portfolio">portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">pages</a>
@@ -108,7 +111,7 @@
 
         <!--  ========================= About Area ==========================  -->
 
-        <section class="about-area">
+        <section class="about-area" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -122,7 +125,7 @@
                             <span>introduce</span>
                             <span>myself</span>
                         </h2>
-                        <div class="paragraph py-4 w-75">
+                        <div class="paragraph py-4 w-75 text-justify">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel
                                 possimus officia maiores perferendis ut! Quos, perspiciatis.
@@ -224,7 +227,7 @@
 
         <!--  ====================== Start Services Area =============================  -->
 
-        <section class="services-area">
+        <section class="services-area" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
@@ -306,7 +309,7 @@
 
         <!--  ======================= Project Area =============================  -->
 
-        <section class="project-area">
+        <section class="project-area" id="portfolio">
             <div class="container">
                 <div class="project-title pb-5">
                     <h1 class="text-uppercase title-h1">Recently Done Project</h1>
@@ -462,7 +465,7 @@
                 </div>
             </div>
 
-            <div class="container carousel py-lg-5">
+            <div class="container carousel py-lg-5 text-justify">
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
@@ -605,6 +608,18 @@
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
 
+    <!-- Jump One Section to Specific Section -->
+    <script>
+        $(document).ready(function () {
+            $('body').on('click', 'a[href^="#"]', function (event) {
+                event.preventDefault();
+                var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
+                //change this number to create the additional off set        
+                var customoffset = 90
+                $('html, body').animate({ scrollTop: target_offset - customoffset }, 500);
+            });
+        });
+    </script>
 
 </body>
 

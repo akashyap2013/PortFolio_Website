@@ -337,11 +337,12 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 2rem;
-    color: var(--border-color);
+    color: var(--primary-color);
 }
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
+    transform: scale(1.3);
 }
 
 
