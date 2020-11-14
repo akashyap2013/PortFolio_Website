@@ -21,7 +21,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 18px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -55,11 +55,11 @@
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
+.site-main .site-banner .site-title h3::after {
     content: " ";
-    height: 2px;
+    height: 3px;
     width: 18vw;
-    background: black;
+    background: rgb(4, 14, 68);
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
@@ -91,7 +91,7 @@
 .site-main .about-area .about-title h2 > span{
     display: block;
     font: normal bold 49px/ 60px var(--roboto);
-    letter-spacing: 21px;
+    letter-spacing: 20px;
 }
 
 .site-main .about-area .about-title .paragraph > p{
@@ -118,8 +118,8 @@
     text-align: center;
     padding: 1.8rem 0rem;
     margin: .9rem 0;
-    width: 180px;
-    height: 100px;
+    width: 190px;
+    height: 110px;
     cursor: pointer;
     transition: transform .4s ease;
 }
@@ -159,7 +159,7 @@
     left: -190px; top: 0%;
     background: #e029290a;
     width: 400px;
-    height: 400px;
+    height: 420px;
     margin-left: 340px;
     z-index: -1;
 }
@@ -247,7 +247,7 @@
 }
 
 .site-main .about-area .client{
-    background: #ffffff10;
+    background: #4b0a4b10;
     box-shadow: var(--box-shadow);
     margin: 3rem 0rem;
 }
@@ -294,11 +294,11 @@
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
     font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
+    color: rgb(217, 179, 235);
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
+    color: rgb(210, 143, 248);
     padding: 1rem 4rem;
 }
 
@@ -312,7 +312,7 @@
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
+    color: rgb(146, 43, 132);
 }
 
 .site-main .subscribe-us-area .subscribe form .btn-submit button{
@@ -331,11 +331,11 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: normal 500 22px/ 32px var(--roboto);
 }
 
 footer.footer-area .social a > i{
-    font-size:22px;
+    font-size: 23px;
     padding: 2rem;
     color: var(--border-color);
 }
