@@ -200,10 +200,13 @@
     width: 16rem;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
+    
 }
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    transition: all 2s ease;
 }
 
 
@@ -234,6 +237,9 @@
 
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    transform: scale(1.05);
+    transition: all 3s ease;
+    
 }
 
 
